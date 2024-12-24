@@ -16,25 +16,24 @@
     <!-- OPEN GRAPH (for social sharing) -->
     <meta property="og:title" content="Teli Sumit | Full Stack Developer | AI/ML Engineer | Data Scientist | Entrepreneur">
     <meta property="og:description" content="Explore Teli Sumit's portfolio showcasing expertise in software development, machine learning, data science, and innovative tech projects. Let’s collaborate on your next project!">
-    <meta property="og:image" content="http://127.0.0.1:5500/assets/favicon_io/sumit%20teli%20icon.png">
+    <meta property="og:image" content="https://sumitteli.me/assets/favicon_io/sumit%20teli%20icon.png">
     <meta property="og:url" content="https://summitteli.me">
     <meta property="og:type" content="website">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
 
     <!-- LINKEDIN INTEGRATION -->
     <meta property="og:profile:first_name" content="Teli">
     <meta property="og:profile:last_name" content="Sumit">
     <meta property="og:profile:username" content="telisumit">
-
-    <!-- FAV ICON -->
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "Teli Sumit",
-          "url": "https://sumitteli.me",
-          "image": "https://sumitteli.me/assets/favicon_io/sumit%20teli%20icon.png",
+          "url": "https://summitteli.me",
+          "image": "https://summitteli.me/assets/images/profile.jpg",
           "jobTitle": "Full Stack Developer, AI/ML Engineer, Data Scientist, Entrepreneur",
-          "description": "Full Stack Developer with expertise in AI/ML, Data Science, and innovative tech projects.",
           "sameAs": [
             "https://www.linkedin.com/in/telisumit",
             "https://github.com/telisumit",
@@ -42,9 +41,16 @@
           ]
         }
         </script>
-        
+          <!-- FAV ICON -->
     <link rel="apple-touch-icon" href="assets/images/favicon.ico">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico">
+    <!-- Standard Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/Sumit-Teli-logo-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/Sumit-Logo-favicon-16x16.png">
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/Sumit-Teli-android-chrome-Logo-512x512.png">
+    <!-- Manifest File -->
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest">
     <!-- ALL GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,8 +81,9 @@
     <![endif]-->
     <!-- Firebase SDK -->
 <!-- Firebase SDK (for Web Version) -->
-<script type="module" src="assets/js/firebase.js"></script>
+    <script type="module" src="assets/js/firebase.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
 
 
 
@@ -123,7 +130,7 @@
                                     </a>
                                 </div>
                                 <!-- Toggle Button -->
-                                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-label="Toggle navigation menu">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
@@ -164,9 +171,9 @@
                         <p>I am a Full Stack Developer, AI/ML Engineer, and Data Scientist.</p>                
                         <div class="about-social text-center">
                             <ul>
-                                <li><a href=https://x.com/sumit__teli""><i class="ri-twitter-x-line"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/telisumit/"><i class="ri-linkedin-fill"></i></a></li>
-                                <li><a href="https://github.com/SumitTeli"><i class="ri-github-line"></i></a></li>
+                                <li><a href="https://x.com/sumit__teli" aria-label="Visit Sumit Teli's profile on X"><i class="ri-twitter-x-line"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/telisumit/" aria-label="Visit Teli Sumit's LinkedIn profile"><i class="ri-linkedin-fill"></i></a></li>
+                                <li><a href="https://github.com/SumitTeli" aria-label="Visit Sumit Teli's GitHub profile"><i class="ri-github-line"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -507,8 +514,11 @@
                     <div class="col-lg-4 col-md-6 item">
                         <div class="project-item style-two wow fadeInUp delay-0-3s">
                             <div class="project-image">
-                                <img src="assets/images/projects/SAMCAR.jpg" alt="SAMCAR Project">
-                                <a href="assets/images/projects/SAMCAR.jpg" class="details-btn work-popup">
+                                <img src="assets/images/projects/SAMCAR.webp" 
+                                data-src="assets/images/projects/SAMCAR.webp" 
+                                alt="SAMCAR Project: Geo-mapping solution for efficient slum data management and monitoring" 
+                                class="lazyload">
+                                <a href="assets/images/projects/SAMCAR.webp" class="details-btn work-popup" aria-label="View detailed image of SAMCAR project">
                                     <i class="ri-arrow-right-up-line"></i>
                                 </a>
                             </div>
@@ -523,8 +533,11 @@
                     <div class="col-lg-4 col-md-6 item branding game">
                         <div class="project-item style-two wow fadeInUp delay-0-3s">
                             <div class="project-image">
-                                <img src="assets/images/projects/SIRD.png" alt="SIRD Project">
-                                <a href="assets/images/projects/SIRD.png" class="details-btn work-popup">
+                                <img src="assets/images/projects/SIRD.webp" 
+                                data-src="assets/images/projects/SIRD.webp" 
+                                alt="SIRD Project: Scheme Inspection Report Dashboard for monitoring government social development programs using geo-tagging" 
+                                class="lazyload">
+                                <a href="assets/images/projects/SIRD.webp" class="details-btn work-popup" aria-label="View detailed image of SIRD project">
                                     <i class="ri-arrow-right-up-line"></i>
                                 </a>
                             </div>
@@ -539,8 +552,11 @@
                     <div class="col-lg-4 col-md-6 item design marketing graphics">
                         <div class="project-item style-two wow fadeInUp delay-0-4s">
                             <div class="project-image">
-                                <img src="assets/images/projects/SLTTC.png" alt="Project">
-                                <a href="assets/images/projects/SLTTC.png" class="details-btn popup-youtube">
+                                <img src="assets/images/projects/SLTTC.webp" 
+                                data-src="assets/images/projects/SLTTC.webp" 
+                                alt="SLTTC Project: AI-driven solution for breaking communication barriers for people with hearing loss using sign language recognition, text, and speech conversion" 
+                                class="lazyload">                           
+                                <a href="assets/images/projects/SLTTC.webp" class="details-btn popup-youtube" aria-label="View detailed image of SLTTC project">
                                     <i class="ri-arrow-right-up-line"></i>
                                 </a>
                             </div>
@@ -555,8 +571,11 @@
                     <div class="col-lg-4 col-md-6 item game graphics">
                         <div class="project-item style-two wow fadeInUp delay-0-5s">
                             <div class="project-image">
-                                <img src="assets/images/projects/shopannies.png" alt="Project">
-                                <a href="assets/images/projects/shopannies.png" class="details-btn work-popup">
+                                <img src="assets/images/projects/shopannies.webp" 
+                                data-src="assets/images/projects/shopannies.webp" 
+                                alt="Shop Annies Project: E-commerce platform with seamless shopping experience for users, focusing on ease of navigation and secure transactions" 
+                                class="lazyload">
+                                <a href="assets/images/projects/shopannies.webp" class="details-btn work-popup" aria-label="View detailed image of Shopannies project">
                                     <i class="ri-arrow-right-up-line"></i>
                                 </a>
                             </div>
@@ -571,8 +590,11 @@
                     <div class="col-lg-4 col-md-6 item design game">
                         <div class="project-item style-two wow fadeInUp delay-0-6s">
                             <div class="project-image">
-                                <img src="assets/images/projects/xgunz.png" alt="Project">
-                                <a href="assets/images/projects/xgunz.png" class="details-btn work-popup">
+                                <img src="assets/images/projects/xgunz.webp" 
+                                data-src="assets/images/projects/xgunz.webp" 
+                                alt="XGunz project, a first-person shooter game built with Unreal Engine and enhanced graphics" 
+                                class="lazyload">                         
+                                <a href="assets/images/projects/xgunz.webp" class="details-btn work-popup"  aria-label="View detailed image of XGunz project">
                                     <i class="ri-arrow-right-up-line"></i>
                                 </a>
                             </div>
@@ -587,8 +609,11 @@
                     <div class="col-lg-4 col-md-6 item branding game">
                         <div class="project-item style-two wow fadeInUp delay-0-7s">
                             <div class="project-image">
-                                <img src="assets/images/projects/BookStore.png" alt="BookStore Project">
-                                <a href="assets/images/projects/BookStore.png" class="details-btn work-popup">
+                                <img src="assets/images/projects/placeholder.png" 
+                                data-src="assets/images/projects/BookStore.png" 
+                                alt="BookStore Project: E-commerce platform for book sales with features like user-friendly navigation, search functionality, and secure online transactions" 
+                                class="lazyload">                           
+                                <a href="assets/images/projects/BookStore.png" class="details-btn work-popup" aria-label="View detailed image of BookStore project"></a>>
                                     <i class="ri-arrow-right-up-line"></i>
                                 </a>
                             </div>
@@ -766,31 +791,20 @@
     </div>
     <!-- / END SCROOL UP DESIGN AREA -->
     <!-- JQUERY JS -->
-     
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <!-- BOOTSTRAP JS-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- APPEAR JS -->
-    <script src="assets/js/appear.min.js"></script>
-	<!-- jquery smooth-scroll JS -->
-	<script src="assets/js/smooth-scroll.js"></script>		
-    <!-- GSAP JS -->
-    <script src="assets/js/gsap.min.js"></script>
-    <!-- MAGNIFICANT JS -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- SLICK JS-->
-    <script src="assets/js/slick.min.js"></script>
-    <!-- NICE SELECT JS-->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!-- IMAGE LOADER JS-->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <!-- ISOTOPE JS-->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!--  WOW ANIMATION JS-->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- SCRIPT JS-->
-    <script src="assets/js/script.js"></script>
-    <script type="module" src="assets/js/contactForm.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js" defer></script>
+    <script src="assets/js/bootstrap.min.js" defer></script>
+    <script src="assets/js/appear.min.js" defer></script>
+    <script src="assets/js/smooth-scroll.js" defer></script>
+    <script src="assets/js/gsap.min.js" defer></script>
+    <script src="assets/js/jquery.magnific-popup.min.js" defer></script>
+    <script src="assets/js/slick.min.js" defer></script>
+    <script src="assets/js/jquery.nice-select.min.js" defer></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js" defer></script>
+    <script src="assets/js/isotope.pkgd.min.js" defer></script>
+    <script src="assets/js/wow.min.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+    <script type="module" src="assets/js/contactForm.js" defer></script>
+    
 </body>
 
 </html>
