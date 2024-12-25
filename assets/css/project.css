@@ -1,0 +1,84 @@
+/* Custom styles for image responsiveness and layout adjustments */
+.single-project-image img {
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Limiting max-width for larger screens */
+    margin: 0 auto;
+    display: block;
+}
+.single-project-image video {
+    width: 100%;
+    height: auto;
+    max-width: 800px; /* Limiting max-width for larger screens */
+    margin: 0 auto;
+    display: block;
+}
+
+.single-project-page-left, .single-project-page-right {
+    padding: 20px;
+}
+
+.single-project-page-left {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.single-info {
+    margin-bottom: 15px;
+}
+
+.single-info h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.single-project-page-right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.call-to-action-area {
+    background-color: #f4f4f4;
+    padding: 30px 0;
+}
+
+/* Ensure left and right columns are equal height */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-lg-4, .col-lg-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    /* Center the iframe */
+    .iframe-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+      }
+      iframe {
+        border: none;
+      }
+@media (max-width: 768px) {
+
+
+    .single-project-page-left {
+        margin-bottom: 20px;
+    }
+
+    /* Adjusting the image for smaller screens */
+    .single-project-image img {
+        max-width: 90%; /* Remove the fixed max-width for mobile */
+        height: auto;
+        margin: 0 auto;
+    }
+    .single-project-image video {
+        max-width: 90%; /* Remove the fixed max-width for mobile */
+        height: auto;
+        margin: 0 auto;
+    }
+}
