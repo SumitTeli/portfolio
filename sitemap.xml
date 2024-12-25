@@ -9,17 +9,47 @@
 
 <url>
   <loc>https://sumitteli.me/</loc>
-  <lastmod>2024-12-23T19:04:47+00:00</lastmod>
+  <lastmod>2024-12-25T05:27:02+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://sumitteli.me/index.html</loc>
-  <lastmod>2024-12-23T19:04:47+00:00</lastmod>
+  <lastmod>2024-12-25T05:27:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sumitteli.me/resume.html</loc>
-  <lastmod>2024-12-23T19:04:47+00:00</lastmod>
+  <lastmod>2024-12-25T05:27:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sumitteli.me/Projects/samcar-project.html</loc>
+  <lastmod>2024-12-25T05:27:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sumitteli.me/Projects/sird-project.html</loc>
+  <lastmod>2024-12-25T05:27:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sumitteli.me/Projects/sign-language-to-text-and-speech-converter.html</loc>
+  <lastmod>2024-12-25T05:27:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sumitteli.me/Projects/shopannies-clothing-ecommerce.html</loc>
+  <lastmod>2024-12-25T05:27:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sumitteli.me/Projects/xgunz-project.html</loc>
+  <lastmod>2024-12-25T05:27:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sumitteli.me/Projects/book-store-project.html</loc>
+  <lastmod>2024-12-25T05:27:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
